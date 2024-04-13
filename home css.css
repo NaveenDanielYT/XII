@@ -1,0 +1,1799 @@
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+
+@keyframes colourchange {
+    0% {color: rgb(255, 0, 0);}
+    50% {color: rgb(243, 85, 85);}
+    75%{color: rgb(255, 212, 212);}
+    100%{color: rgb(243, 3, 3);}    
+} 
+
+
+@keyframes shadowchange {
+    from { box-shadow:2px 2px 5px rgb(156, 156, 156); }
+    to {box-shadow: 2px 2px 5px gray;}
+    
+        
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    #logo{ 
+        transition: 1s;
+        max-height: 30px;
+        display: flex;
+        float: left;
+    
+    
+    
+}
+
+.header{
+    max-width: 100%;
+    
+}
+
+.main{
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 767px;
+    min-width: 100px;
+}
+
+
+
+.homebar{
+    transition: 0.5s;
+    display: block;
+    align-content: center;
+    text-decoration: none;
+    color: #f0f8ff;
+    display: inline-flex;
+    float: right;
+    padding: 2.5px 0.09%;
+    margin: 2.5px 6px;
+    font-family: Roboto;
+    font-size: 14px;
+    padding-top: 3px
+    
+    
+    
+}
+
+.homebar:hover{
+    /*
+    animation: colourchange 6s infinite  ;    
+    transition: 0.9s;
+    */
+    
+}
+
+
+.navbar{
+    transition: 1s;
+    height: 25px;
+    display: block;
+    position: sticky  ;
+    background-color: #8d8c8c;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    padding: 10px;
+    margin-bottom: 7px;
+    
+ }
+ .navbar:hover{
+    
+    transition: 0.9s;
+    box-shadow: 2px 2px 15px gray;
+
+ }
+
+.body{
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    margin: 0px;
+    
+    
+    
+}
+
+#teachers{
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    float: left
+
+}
+
+#class_img{
+   display: block;
+   height:auto;
+   width: 100%;
+   border-radius: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5px;
+   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+    
+}
+
+
+.main_banner{
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin: 1px;
+
+}
+
+
+
+#girlsonly{
+    transition: 1s;
+    display: block;
+    float: right;   
+    justify-content: right;
+    width: 40%;
+    max-width: 40%;
+    margin: 5px;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: auto;
+    max-height: auto;
+    border-radius: 10px;
+    
+    
+}
+
+
+#girlsonly:hover{
+    transition-duration: 1s;
+    box-shadow:-12px 12px  25px rgb(202, 202, 202);
+
+
+}
+
+
+#boysonly{
+    transition: 1s;
+    display: block;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 0px;
+    width: 40%;
+    height: auto;
+    max-height: auto ;
+    float: left;
+    border-radius: 10px;
+
+}
+
+
+#boysonly:hover{
+    transition-duration: 1s;
+    box-shadow: 12px 12px 25px rgb(202, 202, 202);
+
+}
+
+
+#pboysgroup{
+    transition: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    align-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+#pgirlsgroup{
+    transition: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    align-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+
+.girlsandboys{
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 767px;
+    margin: auto;
+    align-content: center;
+
+}
+
+#boysandgirlsboys{
+    display: block;
+    margin: 0px;
+    overflow: hidden;
+}  
+
+#girlsandboysgirls{
+    display: block;
+    margin: 0px;
+    width: auto;
+    overflow: hidden;
+}
+
+
+.signatures{
+    display: block;
+    max-width: 767px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    background-color: #ebebeb;
+    padding : 15px;
+
+}
+
+#signs{
+    transition: 1s;
+    display: block;
+    border: solid rgb(185, 185, 185) 2px;
+    margin-right: 10%;
+    float: right;
+    height: auto;
+    max-height: 500px;
+    max-width: auto;
+    width: 20%;
+
+}
+
+#names{
+    transition: 1s;
+    display: block;
+    margin-left: 15%;
+    rotate: -90deg;
+    float: left;
+    height: auto;
+    max-height: 500px;
+    width: 20%;
+}
+
+#signtext{
+    visibility: hidden;
+    display: flex;
+    font-family: Poppins;
+    
+
+}
+
+#nametext{
+    visibility: hidden;
+    display: flex;
+    font-family: Poppins;
+
+}
+
+.students{
+    display: block;
+    max-width: 767px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+}
+
+#studentsheading{
+    font-family: Roboto;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+.boysstudents{
+    display: inline-block;
+    text-align: left;
+    float:left;
+    font-family: Rubik;
+    width: 45%;
+    align-items: center;
+    padding-left: 16%;
+}
+
+
+.girlstudents{
+    display: inline-block;
+    float: left;
+    text-align: left;
+   
+    font-family: Rubik;
+    width: 20%;
+    align-items: right;
+    
+}
+
+#student{
+    transition-duration: 0.5s;
+    display: block;
+    padding-bottom: 8px;
+    width: 150px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+#student:before{
+    content: "🧡";
+    
+}
+#student:hover{
+    /*
+    font-size: 17px;
+    color: red;
+    transition-duration: 1s;
+    */
+    
+}
+
+.celebrationscontent{
+    display: block;
+    max-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.page1_teachersday{
+    display: block;
+    overflow: hidden;
+    align-content: center;
+    background-color: rgb(241, 238, 234);
+    
+    
+    
+}
+
+#teachersday{
+    display: block;
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 2.5px;
+    transition-duration: 1s;
+}
+
+.cakesdiv{
+    display: block;
+    transition-duration: 1s;
+    max-width: 1920px;
+    transition-duration: 1s;
+
+   
+}
+
+#tdayboard{
+    display: block;
+    float: left;
+    width: 32%;
+    min-height: 80px;
+    max-height: 294px;
+    transition-duration: 1s;
+    border: solid rgb(194, 194, 194) 1px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+
+}
+
+#tdaycake{
+    display: block;
+    width: 32%;
+    float: left;
+    transition-duration: 1s;
+    border: solid rgb(124, 124, 124) 1px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+   
+}
+#tdaycake1{
+    display: block;
+    width: 32%;
+    float: left;
+    border: solid rgb(104, 104, 104) 1px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    transition-duration: 1s;
+   
+}
+
+
+#tdayccutting{
+
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-height: 35%;
+    margin-left : auto;
+    margin-right : auto;
+    padding: 2px;
+    padding-top: 15px;
+    transition-duration: 0.5s;
+    
+}
+
+
+.page2_pongal{
+    display: block;
+    background-color: white;
+}
+
+#pongal{
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    padding: 2.5px;
+  
+    
+}
+
+#pongal_teachers{
+    display: block;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: 2px 2px 15px rgb(170, 170, 170);
+}
+#pongalceleb1234{
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    box-shadow: 2px 2px 15px rgb(170, 170, 170);
+   
+
+}
+#pongal_teachers2{
+    width: 98%;
+    padding: 4px;
+   
+    box-shadow: 2px 2px 15px rgb(170, 170, 170);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+#pongalGPboys{
+    width: 98%;
+    padding: 4px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 15px rgb(170, 170, 170);
+    margin-bottom: 10px;
+    
+}
+#pongalGPgirls{
+    width: 98%;
+    padding: 4px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 15px rgb(170, 170, 170);
+    margin-bottom: 10px;
+}
+
+.page3_retirement{
+    display: block;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    
+
+}
+.caketextdiv{
+    display: block;
+    overflow: hidden;
+    transition-duration: 1s;
+    
+    
+    
+}
+#retirement{
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0px;
+    
+}
+
+#mathretirementcake{
+    display: inline-flex;
+    max-height: 500px;
+    width: 45%;
+    margin-left: 1%;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+}
+
+
+#mathretirementcakecutting{
+    display: inline-flex;
+    max-height: 500px;
+    width: 45%;
+    float: right;
+    margin-right: 1%;
+    box-shadow: -10px 10px 15px rgb(170, 170, 170);
+    
+}
+#mathretirementcakefull{
+    display: block;
+    float: left;
+    width: 40%;
+    margin-bottom: 8%;
+    margin-left: 1%;
+    box-shadow: 2px 2px 15px rgb(170, 170, 170);
+
+}
+
+#retirementtext{
+    font-family: Rubik;
+    font-size: 11px;
+    text-align: center;
+    align-content: center;
+    font-style: italic;
+    padding-top: 10.5%;
+    padding-bottom: 2.5%;
+    padding-left: 10px;
+}
+
+.about{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(230, 230, 230);
+
+}
+#abouttext{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    font-family: Roboto;
+    font-size: .5rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 30px;
+}
+
+#batchoftt{
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    float: left;
+    
+   
+}
+  }   
+
+@media only screen and (min-width:768px) and (max-width:1440px){
+  
+    #logo{ 
+            transition: 1s;
+            max-height: 35px;
+            display: flex;
+            float: left;
+        
+        
+        
+    }
+    
+    .header{
+        max-width: 100%;
+        
+    }
+    
+    .main{
+        align-content: center;
+        margin: auto;
+        width: 100%;
+        max-width: 1920px;
+        min-width: 100px;
+    }
+    
+    
+    
+    .homebar{
+        transition: 1s;
+        display: block;
+        align-content: center;
+        text-decoration: none;
+        color: #f0f8ff;
+        display: inline-flex;
+        float: right;
+        padding: 5px 10px;
+        margin: 5px 12px;
+        font-family: Roboto;
+        font-size: 14px;
+        padding-top: 3px
+        
+        
+        
+    }
+    
+    .homebar:hover{
+        animation: colourchange 6s infinite  ;    
+        transition: 1s;
+     
+        
+    }
+    
+    
+    .navbar{
+        transition: 1s;
+        height: 30px;
+        display: block;
+        position: sticky  ;
+        background-color: #8d8c8c;
+        position: sticky;
+        z-index: 10;
+        top: 0;
+        padding: 10px;
+        margin-bottom: 15px;
+        
+     }
+     .navbar:hover{
+        
+        transition: 0.9s;
+        box-shadow: 2px 2px 15px gray;
+    
+     }
+    
+    .body{
+        background-color: rgb(255, 255, 255);
+        user-select: none;
+        margin: 0px;
+        
+        
+        
+    }
+    
+    #teachers{
+        visibility: hidden;
+        overflow: hidden;
+        float: left
+
+    }
+    
+    #class_img{
+       display: block;
+       height:auto;
+       width: 100%;
+       border-radius: 5px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 10px;
+       box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+       
+        
+    }
+    
+    
+    .main_banner{
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        margin: 10px;
+    
+    }
+    
+    
+    
+    #girlsonly{
+        transition: 1s;
+        display: block;
+        float: right;   
+        justify-content: right;
+        
+        width: 40%;
+        max-width: 40%;
+        margin: 5px;
+    
+        padding: 0px;
+        margin-bottom: 20px;
+        height: auto;
+        max-height: auto;
+    
+        border-radius: 10px;
+        
+        
+    }
+    
+    
+    #girlsonly:hover{
+        transition-duration: 1s;
+        box-shadow:-12px 12px  25px rgb(202, 202, 202);
+    
+    
+    }
+    
+    
+    #boysonly{
+        transition: 1s;
+        display: block;
+        margin: 5px;
+        margin-bottom: 20px;
+        padding: 0px;
+        width: 40%;
+        height: auto;
+        max-height: auto ;
+        float: left;
+        border-radius: 10px;
+    
+    }
+    
+    
+    #boysonly:hover{
+        transition-duration: 1s;
+        box-shadow: 12px 12px 25px rgb(202, 202, 202);
+    
+    }
+    
+    
+    #pboysgroup{
+        transition: 0.4s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        align-content: center;
+        margin-top: 11%;
+        margin-bottom: 11%;
+        padding-right: 20px;
+        padding-left: 20px;
+ 
+    }
+
+    #pgirlsgroup{
+        transition: 0.4s;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        align-content: center;
+        margin-top: 11%;
+        margin-bottom: 11%;
+        padding-right: 10px;
+        padding-left: 20px;
+    
+    }
+    
+    
+    .girlsandboys{
+        display: block;
+        overflow: hidden;
+        padding-bottom: 0px;
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        align-content: center;
+ 
+    }
+    
+    #boysandgirlsboys{
+        display: block;
+        margin: 0px;
+        overflow: hidden;
+    }  
+    
+    #girlsandboysgirls{
+        display: block;
+        margin: 0px;
+        width: auto;
+        overflow: hidden;
+    }
+    
+    
+    .signatures{
+        display: block;
+        max-width: 1440px;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        background-color: #ebebeb;
+        padding : 30px;
+
+    }
+    
+    #signs{
+        transition: 1s;
+        display: block;
+        border: solid rgb(185, 185, 185) 2px;
+        margin-right: 20%;
+        float: right;
+        height: auto;
+        max-height: 500px;
+        max-width: auto;
+        width: 20%;
+    
+    }
+    
+    #names{
+        transition: 1s;
+        display: block;
+        margin-left: 20%;
+        rotate: -90deg;
+        float: left;
+        height: auto;
+        max-height: 500px;
+        width: 20%;
+    }
+    
+    #signtext{
+        visibility: hidden;
+        display: flex;
+        font-family: Poppins;
+        
+    
+    }
+    
+    #nametext{
+        visibility: hidden;
+        display: flex;
+        font-family: Poppins;
+    
+    }
+    
+    .students{
+        display: block;
+        max-width: 1920px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    
+    }
+    
+    #studentsheading{
+        font-family: Roboto;
+        text-align: center;
+        font-size: 20px;
+       
+    }
+    
+    .boysstudents{
+        display: inline-block;
+        text-align: left;
+        float:left;
+        font-family: Rubik;
+        width: 25%;
+        align-items: center;
+        padding-left: 30%;
+    }
+    
+    
+    .girlstudents{
+        display: inline-block;
+        float: right;
+        text-align: left;
+        padding-right: 10%;
+        font-family: Rubik;
+        width: 25%;
+        align-items: right;
+        
+    }
+    
+    #student{
+        transition-duration: 0.5s;
+        display: block;
+        padding-bottom: 10px;
+        width: 200px;
+        font-size: 15px;
+        
+    }
+    
+    #student:before{
+        content: "🧡";
+        
+    }
+    #student:hover{
+        font-size: 17px;
+        color: red;
+        transition-duration: 1s;
+  
+        
+    }
+    
+    .celebrationscontent{
+        display: block;
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    .page1_teachersday{
+        display: block;
+        overflow: hidden;
+        align-content: center;
+        background-color: rgb(241, 238, 234);
+        
+        
+        
+    }
+    
+    #teachersday{
+        display: block;
+        font-family: Poppins;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        transition-duration: 1s;
+    }
+    
+    .cakesdiv{
+        display: block;
+        transition-duration: 1s;
+        max-width: 1920px;
+       
+    }
+    
+    #tdayboard{
+        display: block;
+        float: left;
+        width: 20.6%;
+        min-height: 100px;
+        max-height: 294px;
+        margin-left: 6.2%;
+        margin-right: 6.2%;
+        margin-bottom: 20px;
+        border: solid rgb(194, 194, 194) 1px;
+        border-radius: 1px;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+        transition-duration: 0.5s;
+    
+    }
+    
+    #tdaycake{
+        display: block;
+        width: 20.6%;
+        float: left;
+        margin-left: 6.2%;
+        margin-right: 6.2%;
+        margin-bottom: 30px;
+        border: solid rgb(124, 124, 124) 1px;
+        border-radius: 1px;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+        transition-duration: 0.5s;
+       
+    }
+    #tdaycake1{
+        display: block;
+        width: 20.6%;
+        float: left;
+        margin-left: 6.2%;
+        margin-right: 5%;
+        border: solid rgb(104, 104, 104) 1px;
+        margin-bottom: 30px;
+        border-radius: 1px;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+        transition-duration: 0.5s;
+       
+    }
+    
+    
+    #tdayccutting{
+        transition-duration: 0.5s;
+        max-width: 60%;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        max-height: 35%;
+        margin-left : auto;
+        margin-right : auto;
+        padding: 20px;
+        padding-top: 10px;
+        
+    }
+    
+    
+    .page2_pongal{
+        display: block;
+        background-color: white;
+    }
+    
+    #pongal{
+        font-family: Poppins;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+      
+        
+    }
+    
+    #pongal_teachers{
+        display: block;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    }
+    #pongalceleb1234{
+        width: 20%;
+        padding: 10px;
+        margin-left: 1.5%;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+       margin-top: 10px;
+    
+    
+    }
+    #pongal_teachers2{
+        width: 72%;
+        padding: 10px;
+        padding-left: 15px;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+        margin-top: 10px;
+        
+        
+    }
+    
+    
+    #pongalGPboys{
+       width: 47%;
+       padding: 1%;
+       margin-left: 1%;
+       box-shadow: 10px 10px 15px rgb(170, 170, 170);
+       margin-bottom: 10px;
+        
+    }
+    #pongalGPgirls{
+        width: 47%;
+        padding: 1%;
+        margin-right: auto;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+        margin-bottom: 10px;
+    }
+    
+    .page3_retirement{
+        display: block;
+        background-color: #e6e6e6;
+        overflow: hidden;
+        
+    
+    }
+    .caketextdiv{
+        display: block;
+        overflow: hidden;
+        transition-duration: 0.4s;
+        
+        
+        
+    }
+    #retirement{
+        font-family: Poppins;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 0px;
+        
+    }
+    
+    #mathretirementcake{
+        transition-duration: 0.8s;
+        display: inline-flex;
+        max-height: 500px;
+        width: 20%;
+       
+        margin-left: 1%;
+        padding-left: 10px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    }
+    
+    
+    #mathretirementcakecutting{
+        transition-duration: 0.8s;
+        display: inline-flex;
+        max-height: 500px;
+        width: 20%;
+        
+        float: right;
+        padding-left: 30px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        box-shadow: -10px 10px 15px rgb(170, 170, 170);
+        
+      
+    }
+    #mathretirementcakefull{
+        transition-duration: 0.8s;
+        display: block;
+        float: left;
+        max-height: 200px;
+        width: 20%;
+        margin-top: 10px;
+        margin-right: 1%;
+        margin-bottom: 10px;
+        margin: 10px 20px 10px 20px;
+        margin-left: 20px;
+        box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+    
+    }
+    
+    #retirementtext{
+        font-family: Rubik;
+        font-size: 16px;
+        text-align: center;
+        align-content: center;
+        font-style: italic;
+        padding-top: 7.5%;
+        padding-bottom: 7.5%;
+        padding-left: 10px;
+    }
+    
+    .about{
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        background-color: rgb(230, 230, 230);
+    
+    }
+    #abouttext{
+        display: inline-block;
+        float: left;
+        text-align: left;
+        font-family: Roboto;
+        font-size: .5rem;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 30px;
+    }
+    
+    #batchoftt{
+        width: 20%;
+        height: 20%;
+        display: inline-block;
+        float: left;
+        
+       
+    }
+}
+    
+@media only screen and  (min-width:1440px) {
+
+#logo{ 
+        max-height: 60px;
+        display: flex;
+        float: left;
+    
+    
+    
+}
+
+.header{
+    max-width: 100%;
+    
+}
+
+.main{
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 100px;
+}
+
+
+
+.homebar{
+    
+    display: block;
+    align-content: center;
+    text-decoration: none;
+    color: #f0f8ff;
+    display: inline-flex;
+    float: right;
+    padding: 5px 10px;
+    margin: 5px 12px;
+    font-family: Roboto;
+    font-size: 18px;
+    padding-top: 10px
+    
+    
+    
+}
+
+.homebar:hover{
+    animation: colourchange 6s infinite  ;    
+    transition: 0.9s;
+ 
+    
+}
+
+
+.navbar{
+    transition-duration: 0.8s ;
+    height: 60px;
+    display: block;
+    position: sticky  ;
+    background-color: #8d8c8c;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+ }
+ .navbar:hover{
+    
+    transition: 0.9s;
+    box-shadow: 2px 2px 5px gray;
+
+ }
+
+.body{
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+    margin: 0px;
+    
+    
+    
+}
+
+#teachers{
+    visibility: hidden;
+    overflow: hidden;
+    float: left
+}
+
+#class_img{
+   display: block;
+   height:auto;
+   width: 100%;
+   border-radius: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+    
+}
+
+
+.main_banner{
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+
+}
+
+
+
+#girlsonly{
+    transition-duration: 1s;
+    display: block;
+    float: right;   
+    justify-content: right;
+    
+    width: 40%;
+    max-width: 40%;
+    margin: 5px;
+
+    padding: 0px;
+    margin-bottom: 20px;
+    height: auto;
+    max-height: auto;
+
+    border-radius: 10px;
+    
+    
+}
+
+
+#girlsonly:hover{
+    transition-duration: 1s;
+    box-shadow:-12px 12px  25px rgb(202, 202, 202);
+
+
+}
+
+
+#boysonly{
+    transition-duration: 1s;
+    display: block;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+    width: 40%;
+    height: auto;
+    max-height: auto ;
+   
+    float: left;
+    border-radius: 10px;
+
+}
+
+
+#boysonly:hover{
+    transition-duration: 1s;
+    box-shadow: 12px 12px 25px rgb(202, 202, 202);
+
+}
+
+
+#pboysgroup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    margin-top: 11%;
+    margin-bottom: 11%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-style: italic;   
+
+
+
+}
+#pgirlsgroup{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    margin-top: 11%;
+    margin-bottom: 11%;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-style: italic;
+
+
+}
+
+
+.girlsandboys{
+    display: block;
+    overflow: hidden;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    align-content: center;
+    
+    
+    
+   
+}
+
+#boysandgirlsboys{
+    display: block;
+    margin: 0px;
+    
+    overflow: hidden;
+}  
+
+#girlsandboysgirls{
+    display: block;
+    margin: 0px;
+    width: auto;
+    overflow: hidden;
+}
+
+
+.signatures{
+    display: block;
+    max-width: 1920px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: #ebebeb;
+    padding : 30px;
+    
+    
+    
+
+}
+
+#signs{
+    display: flex;
+    border: solid rgb(187, 52, 52) 2px;
+    margin-right: 20%;
+    float: right;
+    height: 500px;
+    max-height: 500px;
+    width: auto;
+
+}
+
+#names{
+    display: flex;
+    margin-left: 20%;
+    rotate: -90deg;
+    float: left;
+    height: 500px;
+    max-height: 500px;
+    width: auto;
+}
+
+#signtext{
+    visibility: hidden;
+    display: flex;
+    font-family: Poppins;
+
+}
+
+#nametext{
+    visibility: hidden;
+    display: flex;
+    font-family: Poppins;
+
+}
+
+.students{
+    display: block;
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+    
+
+}
+
+#studentsheading{
+    font-family: Roboto;
+    text-align: center;
+   
+}
+
+.boysstudents{
+    display: inline-block;
+    text-align: left;
+    float:left;
+    font-family: Rubik;
+    width: 25%;
+    align-items: center;
+    padding-left: 30%;
+}
+
+
+.girlstudents{
+    display: inline-block;
+    float: right;
+    text-align: left;
+    padding-right: 10%;
+    font-family: Rubik;
+    width: 25%;
+    align-items: right;
+    
+}
+
+#student{
+    transition: 1s;
+    display: block;
+    padding-bottom: 10px;
+    width: 200px;
+    
+}
+
+#student:before{
+    content: "🧡";
+    
+}
+#student:hover{
+    font-size: 17px;
+    color: red;
+    transition-duration: 0.5s;
+    
+    
+}
+
+.celebrationscontent{
+    display: block;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.page1_teachersday{
+    display: block;
+    overflow: hidden;
+    align-content: center;
+    background-color: rgb(241, 238, 234);
+    
+    
+    
+}
+
+#teachersday{
+    display: block;
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cakesdiv{
+    display: block;
+    
+    max-width: 1920px;
+   
+}
+
+#tdayboard{
+    display: block;
+    float: left;
+    width: 20.6%;
+    min-height: 100px;
+    max-height: 294px;
+    margin-left: 6.2%;
+    margin-right: 6.2%;
+    margin-bottom: 20px;
+    border: solid rgb(104, 104, 104) 1px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+
+}
+
+#tdaycake{
+    display: block;
+    width: 20.6%;
+    float: left;
+    margin-left: 6.2%;
+    margin-right: 6.2%;
+    margin-bottom: 30px;
+    border: solid rgb(124, 124, 124) 1px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+   
+}
+#tdaycake1{
+    display: block;
+    width: 20.6%;
+    float: left;
+    margin-left: 6.2%;
+    margin-right: 5%;
+    border: solid rgb(104, 104, 104) 1px;
+    margin-bottom: 30px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+   
+}
+
+
+#tdayccutting{
+    
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-height: 35%;
+    margin-left : auto;
+    margin-right : auto;
+    padding: 20px;
+    
+}
+
+
+.page2_pongal{
+    display: block;
+    background-color: white;
+}
+
+#pongal{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+  
+    
+}
+
+#pongal_teachers{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+}
+#pongalceleb1234{
+    width: 20%;
+    padding: 20px;
+    margin-left: 1.3%;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+   
+
+
+}
+#pongal_teachers2{
+    width: 72%;
+    padding: 20px;
+    padding-left: 25px;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    
+    
+}
+
+
+#pongalGPboys{
+   width: 47%;
+   padding: 1%;
+   margin-left: 1%;
+   box-shadow: 10px 10px 15px rgb(170, 170, 170);
+   margin-bottom: 20px;
+    
+}
+#pongalGPgirls{
+    width: 47%;
+    padding: 1%;
+    margin-right: auto;
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+    margin-bottom: 20px;
+}
+
+.page3_retirement{
+    display: block;
+    background-color: #e6e6e6;
+    overflow: hidden;
+
+}
+.caketextdiv{
+    display: block;
+    overflow: hidden;
+    max-height: 5%;
+    
+}
+#retirement{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 10px;
+    
+}
+
+#mathretirementcake{
+    transition-duration: 0.8s;
+    display: inline-block;
+    height: 600px;
+    max-height: 50%;
+    margin-left: 9%;
+    padding-left: 20px;
+    padding-right: 30px;
+   
+    margin-bottom: 20px;
+    
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+}
+
+
+#mathretirementcakecutting{
+    transition-duration: 0.8s;
+    display: block;
+    height: 600px;
+    max-height: 50%;
+    float: right;
+    padding-left: 30px;
+    padding-right: 20px;
+    box-shadow: -10px 10px 15px rgb(170, 170, 170);
+    
+  
+}
+#mathretirementcakefull{
+    transition-duration: 0.8s;
+    display: block;
+    float: left;
+    margin-left: 180px;
+    width: 20%;
+    margin-top: 30px;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    
+    box-shadow: 10px 10px 15px rgb(170, 170, 170);
+
+
+}
+
+#retirementtext{
+    
+    display: inline-block;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 60px;
+    padding-right: 10px;
+    font-family: Rubik;
+    font-size: 16px;
+    text-align: end;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.about{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: rgb(230, 230, 230);
+
+}
+#abouttext{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    
+    font-family: Roboto;
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 30px;
+}
+
+#batchoftt{
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    float: left;
+    
+   
+}
+
+}
